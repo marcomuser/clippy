@@ -36,6 +36,55 @@ export const CopyCards = ({ form }: TProps) => {
         <br />
         ////////////////////////////////////////////////////////////////
       </CopyCard>
+
+      <CopyCard form={form} title="PRIO 1.5 Bucket">
+        🔴 RETENTION PRIO 1.5 Bucket 🔴 <br />
+        {firstName} {surname} {dateTime} DAUER
+        <br /> ✅ FU Datum/Uhrzeit:
+        <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
+        <br />
+        🅰️ Stornogründe Stichpunkte: <br />
+        🅱️ Notizen aus Call: <br />
+        ////////////////////////////////////////////////////////////////
+      </CopyCard>
+
+      <CopyCard form={form} title="PRIO 2 Bucket">
+        🔴 RETENTION PRIO 2 Bucket 🔴 <br />
+        {firstName} {surname} {dateTime} DAUER
+        <br /> ✅ FU Datum/Uhrzeit:
+        <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
+        <br />
+        🅰️ Stornogründe Stichpunkte: <br />
+        🅱️ Notizen aus Call: <br />
+        ////////////////////////////////////////////////////////////////
+      </CopyCard>
+
+      <CopyCard form={form} title="PRIO 3 Bucket">
+        🔴 RETENTION PRIO 3 Bucket 🔴 <br />
+        {firstName} {surname} {dateTime} DAUER
+        <br /> ✅ FU Datum/Uhrzeit:
+        <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
+        <br />
+        🅰️ Stornogründe Stichpunkte: <br />
+        🅱️ Notizen aus Call: <br />
+        ////////////////////////////////////////////////////////////////
+      </CopyCard>
+
+      <CopyCard form={form} title="SOS Fälle">
+        🆘 SOS TBK (live) Retention Manager: {firstName} {surname} - {dateTime}{" "}
+        / Dauer
+        <br /> // 📥 Case via (von wem kam die KTL?):
+        <br /> // ⚠ Kurzbeschreibung aus SOS Chat:
+        <br /> // ☀️ Link zur CL/KTL:
+        <br />
+        // ✅ FU Datum/Uhrzeit:
+        <br /> // 💚 CL/KTL geschlossen?:
+        <br /> Stornogründe Stichpunkte ℹ️:
+        <br />
+        RETENTION ℹ️💬 GESPRÄCHSNOTIZEN aus Call am Datum/Uhrzeit:
+        <br />
+        ////////////////////////////////////////////////////////////////
+      </CopyCard>
     </section>
   );
 };

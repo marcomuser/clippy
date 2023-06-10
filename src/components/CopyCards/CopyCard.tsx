@@ -32,7 +32,7 @@ export const CopyCard = ({ title, form, children }: TProps) => {
 
   return (
     <Card
-      style={{ width: 400 }}
+      style={{ width: 450 }}
       title={title}
       actions={[
         <Button type="primary" onClick={onClickHandler}>
