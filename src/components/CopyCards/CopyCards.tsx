@@ -29,8 +29,6 @@ export const CopyCards = ({ form }: TProps) => {
     <section className={styles.cards}>
       <CopyCard form={form} title="Nicht erreicht">
         <br />❌ NE {firstName} {surname} {dateTime}
-        <br />
-        ////////////////////////////////////////////////////////////////
       </CopyCard>
 
       <CopyCard form={form} title="Kunde noch nicht erreicht">
@@ -115,15 +113,16 @@ export const CopyCards = ({ form }: TProps) => {
       </CopyCard>
 
       <CopyCard form={form} title="After IPA / SC2 case ">
-        ☀️Kunde im Retention Prozess ☀️ Hallo liebe/r Seller/in 🙂, dieser Kunde
-        wurde vom Retention zurückgewonnen. Deshalb übernimmt Retention die
-        weitere Kommunikation und diesen SC2, samt Terminierung. Wärst du so
-        freundlich und gehst zum Wohle des Kunden bei Rückfragen bitte zuerst
-        auf deine/n TL zu, bevor du den Kunden kontaktierst? Dein/e TL ist
-        herzlich eingeladen sich bei Luka Araguas zu melden, falls es Fragen
-        gibt. Vielen Dank und liebe Grüße {firstName} {surname}, {dateTime}
+        ☀️Kunde im Retention Prozess ☀️
         <br />
-        ////////////////////////////////////////////////////////////////
+        Hallo liebe/r Seller/in 🙂, dieser Kunde wurde vom Retention
+        zurückgewonnen. Deshalb übernimmt Retention die weitere Kommunikation
+        und diesen SC2, samt Terminierung. Wärst du so freundlich und gehst zum
+        Wohle des Kunden bei Rückfragen bitte zuerst auf deine/n TL zu, bevor du
+        den Kunden kontaktierst? Dein/e TL ist herzlich eingeladen sich bei Luka
+        Araguas zu melden, falls es Fragen gibt.
+        <br />
+        Vielen Dank und liebe Grüße {firstName} {surname}, {dateTime}
       </CopyCard>
     </section>
   );
