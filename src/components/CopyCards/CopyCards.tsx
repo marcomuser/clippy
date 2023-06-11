@@ -27,6 +27,12 @@ export const CopyCards = ({ form }: TProps) => {
 
   return (
     <section className={styles.cards}>
+      <CopyCard form={form} title="Nicht erreicht">
+        <br />❌ NE {firstName} {surname} {dateTime}
+        <br />
+        ////////////////////////////////////////////////////////////////
+      </CopyCard>
+
       <CopyCard form={form} title="Kunde noch nicht erreicht">
         RETENTION 📞❌ STORNO NOCH NICHT ERREICHT
         <br />❌ NE1 {firstName} {surname} {dateTime}
@@ -40,33 +46,48 @@ export const CopyCards = ({ form }: TProps) => {
       <CopyCard form={form} title="PRIO 1.5 Bucket">
         🔴 RETENTION PRIO 1.5 Bucket 🔴 <br />
         {firstName} {surname} {dateTime} DAUER
+        <br />
         <br /> ✅ FU Datum/Uhrzeit:
+        <br />
         <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
         <br />
+        <br />
         🅰️ Stornogründe Stichpunkte: <br />
+        <br />
         🅱️ Notizen aus Call: <br />
+        <br />
         ////////////////////////////////////////////////////////////////
       </CopyCard>
 
       <CopyCard form={form} title="PRIO 2 Bucket">
         🔴 RETENTION PRIO 2 Bucket 🔴 <br />
         {firstName} {surname} {dateTime} DAUER
+        <br />
         <br /> ✅ FU Datum/Uhrzeit:
+        <br />
         <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
         <br />
+        <br />
         🅰️ Stornogründe Stichpunkte: <br />
+        <br />
         🅱️ Notizen aus Call: <br />
+        <br />
         ////////////////////////////////////////////////////////////////
       </CopyCard>
 
       <CopyCard form={form} title="PRIO 3 Bucket">
         🔴 RETENTION PRIO 3 Bucket 🔴 <br />
         {firstName} {surname} {dateTime} DAUER
+        <br />
         <br /> ✅ FU Datum/Uhrzeit:
+        <br />
         <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
         <br />
+        <br />
         🅰️ Stornogründe Stichpunkte: <br />
+        <br />
         🅱️ Notizen aus Call: <br />
+        <br />
         ////////////////////////////////////////////////////////////////
       </CopyCard>
 
@@ -74,14 +95,33 @@ export const CopyCards = ({ form }: TProps) => {
         🆘 SOS TBK (live) Retention Manager: {firstName} {surname} - {dateTime}{" "}
         / Dauer
         <br /> // 📥 Case via (von wem kam die KTL?):
+        <br />
         <br /> // ⚠ Kurzbeschreibung aus SOS Chat:
+        <br />
         <br /> // ☀️ Link zur CL/KTL:
         <br />
+        <br />
         // ✅ FU Datum/Uhrzeit:
+        <br />
         <br /> // 💚 CL/KTL geschlossen?:
+        <br />
         <br /> Stornogründe Stichpunkte ℹ️:
         <br />
+        <br />
         RETENTION ℹ️💬 GESPRÄCHSNOTIZEN aus Call am Datum/Uhrzeit:
+        <br />
+        <br />
+        ////////////////////////////////////////////////////////////////
+      </CopyCard>
+
+      <CopyCard form={form} title="After IPA / SC2 case ">
+        ☀️Kunde im Retention Prozess ☀️ Hallo liebe/r Seller/in 🙂, dieser Kunde
+        wurde vom Retention zurückgewonnen. Deshalb übernimmt Retention die
+        weitere Kommunikation und diesen SC2, samt Terminierung. Wärst du so
+        freundlich und gehst zum Wohle des Kunden bei Rückfragen bitte zuerst
+        auf deine/n TL zu, bevor du den Kunden kontaktierst? Dein/e TL ist
+        herzlich eingeladen sich bei Luka Araguas zu melden, falls es Fragen
+        gibt. Vielen Dank und liebe Grüße {firstName} {surname}, {dateTime}
         <br />
         ////////////////////////////////////////////////////////////////
       </CopyCard>

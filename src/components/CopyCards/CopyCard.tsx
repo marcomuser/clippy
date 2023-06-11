@@ -32,7 +32,7 @@ export const CopyCard = ({ title, form, children }: TProps) => {
 
   return (
     <Card
-      style={{ width: 450, display: "flex", flexDirection: "column" }}
+      style={{ width: 400, display: "flex", flexDirection: "column" }}
       bodyStyle={{ flexGrow: 1 }}
       title={title}
       actions={[
