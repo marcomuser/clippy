@@ -38,6 +38,14 @@ export const CopyCards = ({ form }: TProps) => {
         ❌ NE2
         <br />❌ NE3
         <br />
+        ❌ NE4
+        <br />❌ NE5
+        <br />❌ NE6
+        <br />❌ NE7
+        <br />❌ NE8
+        <br />❌ NE9
+        <br />❌ NE10
+        <br />
         ////////////////////////////////////////////////////////////////
       </CopyCard>
 
