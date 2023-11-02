@@ -49,13 +49,29 @@ export const CopyCards = ({ form }: TProps) => {
         ////////////////////////////////////////////////////////////////
       </CopyCard>
 
+<CopyCard form={form} title="PRIO 1 Bucket">
+        🔴 RETENTION PRIO 1 Bucket 🔴 <br />
+        {firstName} {surname} {dateTime} DAUER
+        <br />
+        <br /> ✅ FU Datum/Uhrzeit:
+        <br />
+        <br /> 🔁 Replanning erstellt am: 
+        <br />
+        <br />
+        🅰️ Stornogründe Stichpunkte: <br />
+        <br />
+        🅱️ Notizen aus Call: <br />
+        <br />
+        ////////////////////////////////////////////////////////////////
+      </CopyCard>
+      
       <CopyCard form={form} title="PRIO 1.5 Bucket">
         🔴 RETENTION PRIO 1.5 Bucket 🔴 <br />
         {firstName} {surname} {dateTime} DAUER
         <br />
         <br /> ✅ FU Datum/Uhrzeit:
         <br />
-        <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
+        <br /> 🔁 Replanning erstellt am: 
         <br />
         <br />
         🅰️ Stornogründe Stichpunkte: <br />
@@ -71,7 +87,7 @@ export const CopyCards = ({ form }: TProps) => {
         <br />
         <br /> ✅ FU Datum/Uhrzeit:
         <br />
-        <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
+        <br /> 🔁 Replanning erstellt am: 
         <br />
         <br />
         🅰️ Stornogründe Stichpunkte: <br />
@@ -87,7 +103,7 @@ export const CopyCards = ({ form }: TProps) => {
         <br />
         <br /> ✅ FU Datum/Uhrzeit:
         <br />
-        <br /> 🔁 Replanning erstellt am: DATUM / Replanning checken am: DATUM
+        <br /> 🔁 Replanning erstellt am: 
         <br />
         <br />
         🅰️ Stornogründe Stichpunkte: <br />
@@ -111,10 +127,10 @@ export const CopyCards = ({ form }: TProps) => {
         <br />
         <br /> // 💚 CL/KTL geschlossen?:
         <br />
-        <br /> Stornogründe Stichpunkte ℹ️:
+        <br /> 🅰️ Stornogründe Stichpunkte:
         <br />
         <br />
-        RETENTION ℹ️💬 GESPRÄCHSNOTIZEN aus Call am Datum/Uhrzeit:
+        RETENTION 🅱️ Notizen aus Call:
         <br />
         <br />
         ////////////////////////////////////////////////////////////////
@@ -127,8 +143,7 @@ export const CopyCards = ({ form }: TProps) => {
         zurückgewonnen. Deshalb übernimmt Retention die weitere Kommunikation
         und diesen SC2, samt Terminierung. Wärst du so freundlich und gehst zum
         Wohle des Kunden bei Rückfragen bitte zuerst auf deine/n TL zu, bevor du
-        den Kunden kontaktierst? Dein/e TL ist herzlich eingeladen sich bei Luka
-        Araguas zu melden, falls es Fragen gibt.
+        den Kunden kontaktierst? Dein/e TL ist herzlich eingeladen sich beim Retention Lead zu melden, falls es Fragen gibt.
         <br />
         Vielen Dank und liebe Grüße {firstName} {surname}, {dateTime}
       </CopyCard>
