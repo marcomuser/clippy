@@ -28,7 +28,7 @@ export const CopyCards = ({ form }: TProps) => {
   return (
     <section className={styles.cards}>
       <CopyCard form={form} title="Nicht erreicht">
-        <br /> NE {firstName} {surname} {dateTime} ❌
+        <br />  {firstName} {surname} {dateTime} ❌ Nicht erreicht
       </CopyCard>
 
       <CopyCard form={form} title="Kunde noch nicht erreicht">
@@ -47,6 +47,32 @@ export const CopyCards = ({ form }: TProps) => {
         ////////////////////////////////////////////////////////////////
       </CopyCard>
 
+  <CopyCard form={form} title="Mosaik Dokumentation Internal Notes">
+        <br /> ⭐ Mosaik ⭐
+    <br /> {firstName} {surname} {dateTime} 
+    <br /> 1. Mosaikhöhe gepitched: 
+    <br />
+    <br /> 2. Verbleib:
+    <br /> 
+    <br /> 3. Lost Grund:
+    <br /> 
+    <br /> 4. Falls zu teuer - welcher Preis wäre nötig?: 
+    <br />
+
+      </CopyCard>
+
+      
+<CopyCard form={form} title="Sonderprojekt Mosaik">
+        Ⓜ️MOSAIK SONDERPROJEKTⓂ️
+        <br />
+        Hallo liebes Sales, dieser Kunde liegt im Mosaik Sonderprojekt. 
+        <br /> Bitte nicht mehr kontaktieren. Wärst du so freundlich und gehst zum
+        Wohle des Kunden bei Rückfragen bitte zuerst auf deine/n TL zu, bevor du
+        den Kunden kontaktierst?
+        <br /> Vielen Dank ☀️ liebe Grüße {firstName} {surname}, {dateTime}
+      </CopyCard>
+      
+      
 <CopyCard form={form} title="PRIO 1 Bucket">
         🔴 RETENTION PRIO 1 Bucket 🔴 <br />
         {firstName} {surname} {dateTime} DAUER
@@ -189,27 +215,7 @@ export const CopyCards = ({ form }: TProps) => {
         ////////////////////////////////////////////////////////////////
       </CopyCard>
       
-      <CopyCard form={form} title="After IPA / SC2 case ">
-        ☀️Kunde im Retention Prozess ☀️
-        <br />
-        Hallo liebe/r Seller/in 🙂, dieser Kunde wurde vom Retention
-        zurückgewonnen. Deshalb übernimmt Retention die weitere Kommunikation
-        und diesen SC2, samt Terminierung. Wärst du so freundlich und gehst zum
-        Wohle des Kunden bei Rückfragen bitte zuerst auf deine/n TL zu, bevor du
-        den Kunden kontaktierst? Dein/e TL ist herzlich eingeladen sich beim Retention Lead zu melden, falls es Fragen gibt.
-        <br />
-        Vielen Dank und liebe Grüße {firstName} {surname}, {dateTime}
-      </CopyCard>
-      
-       <CopyCard form={form} title="Sonderprojekt Mosaik">
-        Ⓜ️MOSAIK SONDERPROJEKTⓂ️
-        <br />
-        Hallo liebes Sales, dieser Kunde liegt im Mosaik Sonderprojekt. 
-        <br /> Bitte nicht mehr kontaktieren. 
-        <br /> Vielen Dank ☀️
-        <br />
-        Vielen Dank und liebe Grüße {firstName} {surname}, {dateTime}
-      </CopyCard>
+       
     </section>
   );
 };
