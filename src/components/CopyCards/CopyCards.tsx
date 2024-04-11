@@ -27,7 +27,14 @@ export const CopyCards = ({ form }: TProps) => {
 
   return (
     <section className={styles.cards}>
-      <CopyCard form={form} title="Nicht erreicht">
+      
+
+      <CopyCard form={form} title="Nur dein Name und Datum + Uhrzeit">
+        {firstName} {surname} {dateTime}{" "}
+         <br />
+      </CopyCard>
+
+<CopyCard form={form} title="Nicht erreicht">
         <br />  {firstName} {surname} {dateTime} ❌ Nicht erreicht
       </CopyCard>
 
@@ -192,30 +199,24 @@ export const CopyCards = ({ form }: TProps) => {
         ////////////////////////////////////////////////////////////////
       </CopyCard>
 
-      <CopyCard form={form} title="SOS Live Home Improvement">
-        🆘 SOS HOME (live) Retention Manager: {firstName} {surname} - {dateTime}{" "}
-        / Dauer
-        <br /> // 📥 Case via (von wem kam die KTL?):
+      <CopyCard form={form} title="MVT Retention: Kunde nicht erreicht ">
+        ⭐ MVT Retention Manager: {firstName} {surname}_MVT_NE_{dateTime}{" "}
+         <br />
+      </CopyCard>
+
+        <CopyCard form={form} title="MVT Retention: Kunde will kein Termin">
+        ⭐ MVT Retention Manager: {firstName} {surname}_will_kein_Termin_{dateTime}{" "}
         <br />
-        <br /> // ⚠ Kurzbeschreibung aus SOS Chat:
-        <br />
-        <br /> // ☀️ Link zur CL/KTL:
-        <br />
-        <br />
-        // ✅ FU Datum/Uhrzeit:
-        <br />
-        <br /> // 💚 CL/KTL geschlossen?:
-        <br />
-        <br /> 🅰️ Stornogründe Stichpunkte:
-        <br />
-        <br />
-        RETENTION 🅱️ Notizen aus Call:
-        <br />
-        <br />
-        ////////////////////////////////////////////////////////////////
+        💡Grund warum Kunde keinen Termin will:
+         <br />
+          
+      </CopyCard>
+
+        <CopyCard form={form} title="MVT Retention: neuer MVT vereinbart">
+        ⭐ MVT Retention Manager: {firstName} {surname}_NEU_MVT_{dateTime}{" "}
+         <br />
       </CopyCard>
       
-       
     </section>
   );
 };
